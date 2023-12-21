@@ -177,7 +177,7 @@ def main():
     st.write("""
     The comprehensive visualizations presented in this app offer a deep dive into the dynamics of engagement across GitHub repositories, revealing several key insights:
 
-    - **Engagement Index Distribution**: The histogram of the Engagement Index across repositories showcases a diverse landscape of engagement levels. It highlights that while a significant number of repositories have moderate engagement, there's a notable proportion with either very high or very low engagement. This variation points to the differing levels of activity and popularity among repositories on GitHub.
+    - **Engagement Index Distribution**: The histogram of the Engagement Index across repositories showcases a diverse landscape of engagement levels. It highlights that a significant number of repositories have low engagement, with a small proportion of repos having high engagement. The distribution is modeled by a negative exponential curve that flattens out as the engagagement increases. This visualization points to the scarcity of high engagement repositories on GitHub.
 
     - **Popularity vs. Engagement**: The scatter plots with regression lines comparing the Engagement Index to stars and forks counts demonstrate a positive correlation. This suggests that traditionally popular repositories (those with more stars and forks) also tend to have higher engagement. However, the correlation is not perfect, indicating other factors also contribute significantly to overall engagement.
 
